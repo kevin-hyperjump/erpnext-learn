@@ -1,0 +1,64 @@
+{
+    "custom_fields": [
+      {
+        "creation": "2020-10-19 11:00:05.000000",
+        "modified": "2020-10-19 11:00:06.000000",
+        "dt": "User",
+        "insert_after": "enabled",
+        "fieldname": "investor_basic_kyc_section",
+        "fieldtype": "Section Break",
+        "label": "Investor's Basic KYC Information"
+      },
+      {
+        "creation": "2020-10-19 11:00:03.432994",
+        "modified": "2020-10-19 11:00:05.000000",
+        "dt": "User",
+        "insert_after": "investor_basic_kyc_section",
+        "fieldname": "ktp_pic",
+        "fieldtype": "Data",
+        "in_filter": 1,
+        "in_standard_filter": 1,
+        "label": "Pic of KTP",
+        "search_index": 1,
+        "in_global_search": 1
+      },
+      {
+        "creation": "2020-10-19 11:00:03.432994",
+        "modified": "2020-10-19 11:00:05.000000",
+        "dt": "User",
+        "insert_after": "ktp_pic",
+        "fieldname": "current_address",
+        "fieldtype": "Data",
+        "in_filter": 1,
+        "in_standard_filter": 1,
+        "label": "Current Address",
+        "search_index": 1,
+        "in_global_search": 1
+      },
+      {
+        "creation": "2020-10-19 11:00:03.432994",
+        "modified": "2020-10-19 11:00:05.000000",
+        "dt": "User",
+        "insert_after": "current_address",
+        "fieldname": "investor_column_break_1",
+        "fieldtype": "Column Break"
+      },
+      {
+        "creation": "2020-10-19 11:00:03.432994",
+        "modified": "2020-10-19 11:00:06.000000",
+        "dt": "User",
+        "insert_after": "investor_column_break_1",
+        "fieldname": "current_marital_status",
+        "fieldtype": "Data",
+        "in_filter": 1,
+        "in_standard_filter": 1,
+        "label": "Current Marital Status",
+        "search_index": 1,
+        "in_global_search": 1
+      }
+    ],
+    "custom_perms": [],
+    "doctype": "User",
+    "property_setters": [],
+    "sync_on_migrate": 1
+  }
