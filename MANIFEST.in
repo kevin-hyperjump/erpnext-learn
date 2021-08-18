@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include karmacap_app *.css
+recursive-include karmacap_app *.csv
+recursive-include karmacap_app *.html
+recursive-include karmacap_app *.ico
+recursive-include karmacap_app *.js
+recursive-include karmacap_app *.json
+recursive-include karmacap_app *.md
+recursive-include karmacap_app *.png
+recursive-include karmacap_app *.py
+recursive-include karmacap_app *.svg
+recursive-include karmacap_app *.txt
+recursive-exclude karmacap_app *.pyc
