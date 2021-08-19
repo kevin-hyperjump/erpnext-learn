@@ -40,14 +40,6 @@
       {
         "dt": "User",
         "insert_after": "current_address",
-        "fieldname": "investor_kyc_column_break",
-        "fieldtype": "Column Break",
-        "creation": "2020-10-19 11:00:03.432994",
-        "modified": "2020-10-20 11:00:06.000000"
-      },
-      {
-        "dt": "User",
-        "insert_after": "investor_kyc_column_break",
         "fieldname": "current_marital_status",
         "fieldtype": "Data",
         "label": "Current Marital Status",
@@ -120,14 +112,6 @@
       {
         "dt": "User",
         "insert_after": "fund_source",
-        "fieldname": "investor_profile_kyc_column_break",
-        "fieldtype": "Column Break",
-        "creation": "2020-10-19 11:00:03.432994",
-        "modified": "2020-10-20 11:00:06.000000"
-      },
-      {
-        "dt": "User",
-        "insert_after": "investor_profile_kyc_column_break",
         "fieldname": "annual_income",
         "fieldtype": "Currency",
         "label": "Annual Income",
