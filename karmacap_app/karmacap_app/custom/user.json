@@ -1,60 +1,201 @@
 {
     "custom_fields": [
       {
-        "creation": "2020-10-19 11:00:05.000000",
-        "modified": "2020-10-19 11:00:06.000000",
         "dt": "User",
         "insert_after": "enabled",
         "fieldname": "investor_basic_kyc_section",
         "fieldtype": "Section Break",
-        "label": "Investor's Basic KYC Information"
+        "label": "Investor's Basic KYC Information",
+        "creation": "2020-10-19 11:00:03.432994",
+        "modified": "2020-10-20 11:00:06.000000"
       },
       {
-        "creation": "2020-10-19 11:00:03.432994",
-        "modified": "2020-10-19 11:00:05.000000",
         "dt": "User",
         "insert_after": "investor_basic_kyc_section",
         "fieldname": "ktp_pic",
         "fieldtype": "Data",
-        "in_filter": 1,
-        "in_standard_filter": 1,
         "label": "Pic of KTP",
-        "search_index": 1,
-        "in_global_search": 1
+        "creation": "2020-10-19 11:00:03.432994",
+        "modified": "2020-10-20 11:00:06.000000"
       },
       {
-        "creation": "2020-10-19 11:00:03.432994",
-        "modified": "2020-10-19 11:00:05.000000",
         "dt": "User",
         "insert_after": "ktp_pic",
+        "fieldname": "nik",
+        "fieldtype": "Data",
+        "length": 16,
+        "label": "NIK KTP"   ,   
+        "creation": "2020-10-19 11:00:03.432994",
+        "modified": "2020-10-20 11:00:06.000000"
+      },
+      {
+        "dt": "User",
+        "insert_after": "nik",
         "fieldname": "current_address",
         "fieldtype": "Data",
-        "in_filter": 1,
-        "in_standard_filter": 1,
         "label": "Current Address",
-        "search_index": 1,
-        "in_global_search": 1
+        "creation": "2020-10-19 11:00:03.432994",
+        "modified": "2020-10-20 11:00:06.000000"
       },
       {
-        "creation": "2020-10-19 11:00:03.432994",
-        "modified": "2020-10-19 11:00:05.000000",
         "dt": "User",
         "insert_after": "current_address",
-        "fieldname": "investor_column_break_1",
-        "fieldtype": "Column Break"
+        "fieldname": "investor_kyc_column_break",
+        "fieldtype": "Column Break",
+        "creation": "2020-10-19 11:00:03.432994",
+        "modified": "2020-10-20 11:00:06.000000"
       },
       {
-        "creation": "2020-10-19 11:00:03.432994",
-        "modified": "2020-10-19 11:00:06.000000",
         "dt": "User",
-        "insert_after": "investor_column_break_1",
+        "insert_after": "investor_kyc_column_break",
         "fieldname": "current_marital_status",
         "fieldtype": "Data",
-        "in_filter": 1,
-        "in_standard_filter": 1,
         "label": "Current Marital Status",
-        "search_index": 1,
-        "in_global_search": 1
+        "creation": "2020-10-19 11:00:03.432994",
+        "modified": "2020-10-20 11:00:06.000000"
+      },
+      {
+        "dt": "User",
+        "insert_after": "current_marital_status",
+        "fieldname": "selfie_pic",
+        "fieldtype": "Data",
+        "label": "Pic of Selfie",
+        "creation": "2020-10-19 11:00:03.432994",
+        "modified": "2020-10-20 11:00:06.000000"
+      },
+      {
+        "dt": "User",
+        "insert_after": "selfie_pic",
+        "fieldname": "investor_profile_kyc_section",
+        "fieldtype": "Section Break",
+        "label": "Investor's Profile KYC Information",
+        "creation": "2020-10-19 11:00:03.432994",
+        "modified": "2020-10-20 11:00:06.000000"
+      },
+      {
+        "dt": "User",
+        "insert_after": "investor_profile_kyc_section",
+        "fieldname": "occupation",
+        "fieldtype": "Data",
+        "label": "Occupation",
+        "creation": "2020-10-19 11:00:03.432994",
+        "modified": "2020-10-20 11:00:06.000000"
+      },
+      {
+        "dt": "User",
+        "insert_after": "occupation",
+        "fieldname": "employer_name",
+        "fieldtype": "Data",
+        "label": "Employer's Name",
+        "creation": "2020-10-19 11:00:03.432994",
+        "modified": "2020-10-20 11:00:06.000000"
+      },
+      {
+        "dt": "User",
+        "insert_after": "employer_name",
+        "fieldname": "employer_address",
+        "fieldtype": "Data",
+        "label": "Employer's Address",
+        "creation": "2020-10-19 11:00:03.432994",
+        "modified": "2020-10-20 11:00:06.000000"
+      },
+      {
+        "dt": "User",
+        "insert_after": "employer_name",
+        "fieldname": "employer_phone",
+        "fieldtype": "Data",
+        "label": "Employer's Phone Number",
+        "creation": "2020-10-19 11:00:03.432994",
+        "modified": "2020-10-20 11:00:06.000000"
+      },
+      {
+        "dt": "User",
+        "insert_after": "employer_phone",
+        "fieldname": "fund_source",
+        "fieldtype": "Data",
+        "label": "Source of Fund",
+        "creation": "2020-10-19 11:00:03.432994",
+        "modified": "2020-10-20 11:00:06.000000"
+      },
+      {
+        "dt": "User",
+        "insert_after": "fund_source",
+        "fieldname": "investor_profile_kyc_column_break",
+        "fieldtype": "Column Break",
+        "creation": "2020-10-19 11:00:03.432994",
+        "modified": "2020-10-20 11:00:06.000000"
+      },
+      {
+        "dt": "User",
+        "insert_after": "investor_profile_kyc_column_break",
+        "fieldname": "annual_income",
+        "fieldtype": "Currency",
+        "label": "Annual Income",
+        "creation": "2020-10-19 11:00:03.432994",
+        "modified": "2020-10-20 11:00:06.000000"
+      },
+      {
+        "dt": "User",
+        "insert_after": "annual_income",
+        "fieldname": "mother_maiden_name",
+        "fieldtype": "Data",
+        "label": "Mother's Maiden Name",
+        "creation": "2020-10-19 11:00:03.432994",
+        "modified": "2020-10-20 11:00:06.000000"
+      },
+      {
+        "dt": "User",
+        "insert_after": "mother_maiden_name",
+        "fieldname": "invesment_purpose",
+        "fieldtype": "Data",
+        "label": "Investment Purpose",
+        "creation": "2020-10-19 11:00:03.432994",
+        "modified": "2020-10-20 11:00:06.000000"
+      },
+      {
+        "dt": "User",
+        "insert_after": "invesment_purpose",
+        "fieldname": "sid",
+        "fieldtype": "Data",
+        "label": "SID",
+        "creation": "2020-10-19 11:00:03.432994",
+        "modified": "2020-10-20 11:00:06.000000"
+      },
+      {
+        "dt": "User",
+        "insert_after": "sid",
+        "fieldname": "npwp",
+        "fieldtype": "Data",
+        "label": "NPWWP Number",
+        "creation": "2020-10-19 11:00:03.432994",
+        "modified": "2020-10-20 11:00:06.000000"
+      },
+      {
+        "dt": "User",
+        "insert_after": "npwp",
+        "fieldname": "bank_account_info_section",
+        "fieldtype": "Section Break",
+        "label": "Bank account information (to transfer withdrawal to)",
+        "creation": "2020-10-19 11:00:03.432994",
+        "modified": "2020-10-20 11:00:06.000000"
+      },
+      {
+        "dt": "User",
+        "insert_after": "bank_account_info_section",
+        "fieldname": "bank_name",
+        "fieldtype": "Data",
+        "label": "Bank name",
+        "creation": "2020-10-19 11:00:03.432994",
+        "modified": "2020-10-20 11:00:06.000000"
+      },
+      {
+        "dt": "User",
+        "insert_after": "bank_name",
+        "fieldname": "bank_account_number",
+        "fieldtype": "Data",
+        "label": "Bank account number",
+        "creation": "2020-10-19 11:00:03.432994",
+        "modified": "2020-10-20 11:00:06.000000"
       }
     ],
     "custom_perms": [],
