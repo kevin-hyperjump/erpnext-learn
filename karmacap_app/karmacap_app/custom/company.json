@@ -1,0 +1,218 @@
+{
+    "custom_fields": [
+      {
+        "dt": "Company",
+        "insert_after": "",
+        "fieldname": "issuer_basic_kyc_section",
+        "fieldtype": "Section Break",
+        "label": "Issuer's Basic KYC Information"
+      },
+      {
+        "dt": "Company",
+        "insert_after": "issuer_basic_kyc_section",
+        "fieldname": "legal_name",
+        "fieldtype": "Data",
+        "label": "Legal Name"
+      },
+      {
+        "dt": "Company",
+        "insert_after": "legal_name",
+        "fieldname": "trading_name",
+        "fieldtype": "Data",
+        "label": "Trading Name"
+      },
+      {
+        "dt": "Company",
+        "insert_after": "trading_name",
+        "fieldname": "company_address",
+        "fieldtype": "Data",
+        "label": "Company Address"
+      },
+      {
+        "dt": "Company",
+        "insert_after": "company_address",
+        "fieldname": "website_link",
+        "fieldtype": "Data",
+        "label": "Website link"
+      },
+      {
+        "dt": "Company",
+        "insert_after": "website_link",
+        "fieldname": "facebook_profile_link",
+        "fieldtype": "Data",
+        "label": "Facebook profile link"
+      },
+      {
+        "dt": "Company",
+        "insert_after": "facebook_profile_link",
+        "fieldname": "instagram_profile_link",
+        "fieldtype": "Data",
+        "label": "Instagram profile link"
+      },
+      {
+        "dt": "Company",
+        "insert_after": "instagram_profile_link",
+        "fieldname": "twitter_profile_link",
+        "fieldtype": "Data",
+        "label": "Twitter profile link"
+      },
+      {
+        "dt": "Company",
+        "insert_after": "twitter_profile_link",
+        "fieldname": "deed_of_incorporation",
+        "fieldtype": "Attach",
+        "label": "Deed of Incorporation"
+      },
+      {
+        "dt": "Company",
+        "insert_after": "deed_of_incorporation",
+        "fieldname": "latest_article_of_association",
+        "fieldtype": "Attach",
+        "label": "Latest Article of Association"
+      },
+      {
+        "dt": "Company",
+        "insert_after": "latest_article_of_association",
+        "fieldname": "latest_director_appointment_document",
+        "fieldtype": "Attach",
+        "label": "Latest Director Appointment Document"
+      },
+      {
+        "dt": "Company",
+        "insert_after": "latest_director_appointment_document",
+        "fieldname": "cap_table_before_crowdfunding",
+        "fieldtype": "Attach",
+        "label": "Cap table before crowdfunding"
+      },
+      {
+        "dt": "Company",
+        "insert_after": "cap_table_before_crowdfunding",
+        "fieldname": "cap_table_after_crowdfunding",
+        "fieldtype": "Attach",
+        "label": "Cap table after crowdfunding"
+      },
+      {
+        "dt": "Company",
+        "insert_after": "cap_table_after_crowdfunding",
+        "fieldname": "bod_profile",
+        "fieldtype": "Attach",
+        "label": "BOD Profile"
+      },
+      {
+        "dt": "Company",
+        "insert_after": "bod_profile",
+        "fieldname": "boc_profile",
+        "fieldtype": "Attach",
+        "label": "BOC Profile"
+      },
+      {
+        "dt": "Company",
+        "insert_after": "boc_profile",
+        "fieldname": "shareholder_profile",
+        "fieldtype": "Attach",
+        "label": "Shareholder Profile"
+      },
+      {
+        "dt": "Company",
+        "insert_after": "shareholder_profile",
+        "fieldname": "nib_number",
+        "fieldtype": "Data",
+        "label": "Nomor induk Berusaha (NIB) number"
+      },
+      {
+        "dt": "Company",
+        "insert_after": "nib_number",
+        "fieldname": "nib_document",
+        "fieldtype": "Attach",
+        "label": "NIB document"
+      },
+      {
+        "dt": "Company",
+        "insert_after": "nib_document",
+        "fieldname": "business_permit_document_type",
+        "fieldtype": "Data",
+        "label": "Business permit document type"
+      },
+      {
+        "dt": "Company",
+        "insert_after": "business_permit_document_type",
+        "fieldname": "busines_permit_document",
+        "fieldtype": "Attach",
+        "label": "Busines permit document"
+      },
+      {
+        "dt": "Company",
+        "insert_after": "busines_permit_document",
+        "fieldname": "intent_letter_on_signing_agreement_with_ksei",
+        "fieldtype": "Attach",
+        "label": "Intent letter on signing agreement with KSEI"
+      },
+      {
+        "dt": "Company",
+        "insert_after": "intent_letter_on_signing_agreement_with_ksei",
+        "fieldname": "team_vision",
+        "fieldtype": "Attach",
+        "label": "Team Vision"
+      },
+      {
+        "dt": "Company",
+        "insert_after": "team_vision",
+        "fieldname": "team_member_name",
+        "fieldtype": "Data",
+        "label": "Team Member Name"
+      },
+      {
+        "dt": "Company",
+        "insert_after": "team_member_name",
+        "fieldname": "team_member_photo",
+        "fieldtype": "Attach Image",
+        "label": "Team Member Photo"
+      },
+      {
+        "dt": "Company",
+        "insert_after": "team_member_photo",
+        "fieldname": "team_member_title",
+        "fieldtype": "Data",
+        "label": "Team Member Title"
+      },
+      {
+        "dt": "Company",
+        "insert_after": "team_member_title",
+        "fieldname": "team_member_profile_description",
+        "fieldtype": "Data",
+        "label": "Team Member Profile Description"
+      },
+      {
+        "dt": "Company",
+        "insert_after": "team_member_profile_description",
+        "fieldname": "team_member_linkedin_profile",
+        "fieldtype": "Data",
+        "label": "Team Member LinkedIn Profile"
+      },
+      {
+        "dt": "Company",
+        "insert_after": "team_member_linkedin_profile",
+        "fieldname": "instutitional_investors",
+        "fieldtype": "Data",
+        "label": "Instutitional Investors"
+      },
+      {
+        "dt": "Company",
+        "insert_after": "instutitional_investors",
+        "fieldname": "institutional_partners",
+        "fieldtype": "Data",
+        "label": "Institutional  Partners"
+      },
+      {
+        "dt": "Company",
+        "insert_after": "institutional_partners",
+        "fieldname": "institutional_customers",
+        "fieldtype": "Data",
+        "label": "Institutional Customers"
+      }
+    ],
+    "custom_perms": [],
+    "doctype": "Company",
+    "property_setters": [],
+    "sync_on_migrate": 1
+}
