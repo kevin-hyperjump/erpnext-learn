@@ -2,10 +2,59 @@
     "custom_fields": [
       {
         "dt": "Company",
-        "insert_after": "",
-        "fieldname": "issuer_basic_kyc_section",
-        "fieldtype": "Section Break",
-        "label": "Issuer's Basic KYC Information"
+        "insert_after": "issuer_director_kyc_section",
+        "fieldname": "pic_of_ktp",
+        "fieldtype": "Image",
+        "label": "Pic of KTP"
+      },
+      {
+        "dt": "Company",
+        "insert_after": "pic_of_ktp",
+        "fieldname": "nik_ktp",
+        "fieldtype": "Data",
+        "label": "NIK KTP"
+      },
+      {
+        "dt": "Company",
+        "insert_after": "nik_ktp",
+        "fieldname": "full_name_on_ktp",
+        "fieldtype": "Data",
+        "label": "Full name on KTP"
+      },
+      {
+        "dt": "Company",
+        "insert_after": "full_name_on_ktp",
+        "fieldname": "date_of_birth_on_ktp",
+        "fieldtype": "Date",
+        "label": "Date of birth on KTP"
+      },
+      {
+        "dt": "Company",
+        "insert_after": "date_of_birth_on_ktp",
+        "fieldname": "gender",
+        "fieldtype": "Data",
+        "label": "Gender"
+      },
+      {
+        "dt": "Company",
+        "insert_after": "gender",
+        "fieldname": "current_address",
+        "fieldtype": "Data",
+        "label": "Current Address"
+      },
+      {
+        "dt": "Company",
+        "insert_after": "current_address",
+        "fieldname": "current_marital_status",
+        "fieldtype": "Data",
+        "label": "Current Marital Status"
+      },
+      {
+        "dt": "Company",
+        "insert_after": "current_marital_status",
+        "fieldname": "pic_of_selfie",
+        "fieldtype": "Image",
+        "label": "Pic of selfie"
       },
       {
         "dt": "Company",
@@ -165,7 +214,7 @@
         "dt": "Company",
         "insert_after": "team_member_name",
         "fieldname": "team_member_photo",
-        "fieldtype": "Attach Image",
+        "fieldtype": "Image",
         "label": "Team Member Photo"
       },
       {
@@ -209,6 +258,20 @@
         "fieldname": "institutional_customers",
         "fieldtype": "Data",
         "label": "Institutional Customers"
+      },
+      {
+        "dt": "Company",
+        "insert_after": "bank_account_information",
+        "fieldname": "bank_name",
+        "fieldtype": "Data",
+        "label": "Bank name"
+      },
+      {
+        "dt": "Company",
+        "insert_after": "bank_name",
+        "fieldname": "bank_account_number",
+        "fieldtype": "Data",
+        "label": "Bank account number"
       }
     ],
     "custom_perms": [],
