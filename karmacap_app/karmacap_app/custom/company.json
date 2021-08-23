@@ -2,63 +2,63 @@
   "custom_fields": [
     {
       "dt": "Company",
-      "insert_after": "issuer_director_kyc_section",
-      "fieldname": "pic_of_ktp",
+      "insert_after": "",
+      "fieldname": "director_pic_of_ktp",
       "fieldtype": "Data",
       "label": "Pic of KTP"
     },
     {
       "dt": "Company",
-      "insert_after": "pic_of_ktp",
-      "fieldname": "nik_ktp",
+      "insert_after": "director_pic_of_ktp",
+      "fieldname": "director_nik_ktp",
       "fieldtype": "Data",
       "label": "NIK KTP"
     },
     {
       "dt": "Company",
-      "insert_after": "nik_ktp",
-      "fieldname": "full_name_on_ktp",
+      "insert_after": "director_nik_ktp",
+      "fieldname": "director_full_name_on_ktp",
       "fieldtype": "Data",
       "label": "Full name on KTP"
     },
     {
       "dt": "Company",
-      "insert_after": "full_name_on_ktp",
-      "fieldname": "date_of_birth_on_ktp",
+      "insert_after": "director_full_name_on_ktp",
+      "fieldname": "director_date_of_birth_on_ktp",
       "fieldtype": "Date",
       "label": "Date of birth on KTP"
     },
     {
       "dt": "Company",
-      "insert_after": "date_of_birth_on_ktp",
-      "fieldname": "gender",
+      "insert_after": "director_date_of_birth_on_ktp",
+      "fieldname": "director_gender",
       "fieldtype": "Data",
       "label": "Gender"
     },
     {
       "dt": "Company",
-      "insert_after": "gender",
-      "fieldname": "current_address",
+      "insert_after": "director_gender",
+      "fieldname": "director_current_address",
       "fieldtype": "Data",
       "label": "Current Address"
     },
     {
       "dt": "Company",
-      "insert_after": "current_address",
-      "fieldname": "current_marital_status",
+      "insert_after": "director_current_address",
+      "fieldname": "director_current_marital_status",
       "fieldtype": "Data",
       "label": "Current Marital Status"
     },
     {
       "dt": "Company",
-      "insert_after": "current_marital_status",
-      "fieldname": "pic_of_selfie",
+      "insert_after": "director_current_marital_status",
+      "fieldname": "director_pic_of_selfie",
       "fieldtype": "Data",
       "label": "Pic of selfie"
     },
     {
       "dt": "Company",
-      "insert_after": "issuer_basic_kyc_section",
+      "insert_after": "director_pic_of_selfie",
       "fieldname": "legal_name",
       "fieldtype": "Data",
       "label": "Legal Name"
